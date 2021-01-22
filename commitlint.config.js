@@ -19,7 +19,6 @@ module.exports = {
 			2,
 			'always',
 			[
-        'new',    // Création
         'add',    // Ajout
         'change', // Changement
         'fix',    // Correctif
