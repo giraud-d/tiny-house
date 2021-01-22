@@ -1,12 +1,22 @@
 # CHANGELOG
 
-## [0.0.2] : 2020-01-22
+## [0.0.3] (TECH) : 2020-01-22
+
+### Add
+
+- Table de contenu généré automatiquement
+
+### Fix
+
+- Icones
+
+## [0.0.2] (TECH) : 2020-01-22
 
 ### Add
 
 - Hook dand le precommit à la modification de ce fichier pour exporter le fichier asciidoc
 
-## [0.0.1] : 2020-01-22
+## [0.0.1] (TECH) : 2020-01-22
 
 ### Add
 

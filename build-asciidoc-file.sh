@@ -12,8 +12,10 @@ then
   sed "0,/X.Y.Z/s//$version/" content/tiny-house-auto-construction.adoc > output/tmp.adoc
 
   # Convert
-  asciidoctor output/tmp.adoc
-  asciidoctor-pdf output/tmp.adoc
+  # https://docs.asciidoctor.org/asciidoc/latest/toc/
+  # https://asciidoctor.org/docs/asciidoctor-pdf/#font-based-icons
+  asciidoctor -a toc -a icons=font -a icon-set=fas output/tmp.adoc
+  asciidoctor-pdf -a toc -a icons=font -a icon-set=fas output/tmp.adoc
 
   # Rename
   mv output/tmp.pdf output/tiny-house-auto-construction-$version.pdf

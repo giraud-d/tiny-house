@@ -1,23 +1,15 @@
 = Tiny House Auto Construction
-
-
-
-== Préambule
-
-// NE PAS CHANGER CETTE LIGNE
+// NE PAS CHANGER CES LIGNES
 Version : X.Y.Z
+:toc: left
+:toc-title: Sommaire
 
 
 == Introduction
 
 Bonjour à tous
 
-
-
-== Sommaire
-
-WARNING: TODO Somaire
-
+toc::[]
 
 
 == Contenu 1
