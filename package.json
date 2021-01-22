@@ -6,6 +6,7 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "./detect-change-on-changelog.sh < /dev/tty",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }

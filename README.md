@@ -2,9 +2,27 @@
 
 ## Dev tools
 
-### Linter
+### Asciidoctor
 
-https://github.com/conventional-changelog/commitlint
+#### Request
+
+* Ruby
+
+#### Install
+
+* `gem install asciidoctor`
+* `gem install asciidoctor-pdf`
+
+#### Manual execution
+
+* `chmod 744 build-asciidoc-file.sh`
+* `./buil-asciidoc-file.sh`
+
+You SHOULD NOT have to execute it, this script will be executed on precommit hook
+
+### Hook and Linter
+
+Husky & https://github.com/conventional-changelog/commitlint
 
 #### Request
 
@@ -12,6 +30,7 @@ https://github.com/conventional-changelog/commitlint
 * Npm
 * NodeJS >=v10.22.0
 
-### Install
+#### Install
 
-* yarn install
+* `yarn install`
+* `chmod 744 detect-change-on-changelog.sh`
